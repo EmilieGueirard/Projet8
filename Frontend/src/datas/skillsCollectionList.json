@@ -1,0 +1,22 @@
+[
+  {
+    "icon": "FaMousePointer",
+    "title": "Conception UX/UI",
+    "description": "Interfaces intuitives & esthétiques centrées sur l’utilisateur"
+  },
+  {
+    "icon": "FaLaptopCode",
+    "title": "Fullstack",
+    "description": "Développent Frontend & Backend pour une approche globale"
+  },
+  {
+    "icon": "MdDevices",
+    "title": "Responsive Design",
+    "description": "Expérience utilisateur optimale sur tous les appareils"
+  },
+  {
+    "icon": "FaRocket",
+    "title": "Performance & SEO",
+    "description": "Optimisation, visibilité & accesibilité pour tous"
+  }
+]

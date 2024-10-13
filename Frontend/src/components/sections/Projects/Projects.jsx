@@ -1,8 +1,11 @@
 import React from 'react';
+import Quote from '../../common/Quote/Quote';
 
 const Projects = () => {
   return (
-    <div>Projets</div>
+    <div>
+    <Quote />
+    </div>
   );
 };
 

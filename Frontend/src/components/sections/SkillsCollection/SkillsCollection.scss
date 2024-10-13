@@ -1,0 +1,30 @@
+@import '../../../assets/styles/Variables.scss';
+
+.collection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  width: 100%;
+  padding-inline: 50px;
+  box-sizing: border-box;
+
+  &__title {
+    font-family: $title-font;
+    align-self: flex-start;
+    font-size: 60px;
+  }
+
+  &__txt {
+    font-size: 20px;
+  }
+
+  &__cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 90%;
+  }
+}

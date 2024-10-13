@@ -9,7 +9,7 @@
     transition: color 0.5s;
 
     &:hover {
-      color: $main-color; 
+      color: var(--github-icon-hover, $main-color); 
     }
   }
 }
@@ -19,4 +19,14 @@
 .navbar__left--icon {
   --github-icon-size: 35px;
   --github-icon-color: $white-color;
+}
+
+// Icon Github in Footer
+
+.footer__icon--github {
+  --github-icon-size: 45px;
+
+  &:hover {
+    --github-icon-hover: $white-color;
+  }
 }
