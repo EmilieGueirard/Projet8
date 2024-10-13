@@ -1,7 +1,7 @@
 import React from 'react';
 import NavBar from '../../common/NavBar/NavBar';
 import Button from '../../common/Button/Button';
-import background from '../../../assets/images/office-developpeur-web.png';
+import background from '../../../assets/images/office-developpeur-web.webp';
 
 const Header = () => {
   return (
