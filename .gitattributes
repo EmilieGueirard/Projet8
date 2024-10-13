@@ -1,0 +1,2 @@
+Frontend/src/assets/images/*.svg filter=lfs diff=lfs merge=lfs -text
+Frontend/src/assets/images/*.png filter=lfs diff=lfs merge=lfs -text
