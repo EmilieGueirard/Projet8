@@ -1,0 +1,22 @@
+@import '../../../assets/styles/Variables.scss';
+
+.github {
+  display: inline-block;
+  color: var(--github-icon-color, $black-color);
+
+  &__icon {
+    font-size: var(--github-icon-size, 50px);
+    transition: color 0.5s;
+
+    &:hover {
+      color: $main-color; 
+    }
+  }
+}
+
+// Icon Github in Navbar
+
+.navbar__left--icon {
+  --github-icon-size: 35px;
+  --github-icon-color: $white-color;
+}

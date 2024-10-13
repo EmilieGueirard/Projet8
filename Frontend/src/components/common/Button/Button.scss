@@ -1,0 +1,19 @@
+@import '../../../assets/styles/Variables.scss';
+
+.btn {
+  width: 200px;
+  padding: 5px;
+  border: none;
+  background: $main-color;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+  font-family: $title-font;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 1px;
+
+    &:hover {
+        background: $white-color;
+    }
+}

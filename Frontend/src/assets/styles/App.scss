@@ -1,0 +1,21 @@
+@import 'normalize.css';
+@import 'Variables';
+@import '../../components/common/Button/Button';
+@import '../../components/common/NavBar/NavBar';
+@import '../../components/common/Burger/Burger';
+@import '../../components/common/Github/Github';
+@import '../../components/sections/Header/Header';
+
+* {
+  margin: 0;
+  }
+  
+body {
+  max-width: 1440px;
+  margin: auto;
+  width: 100%;
+  box-sizing: border-box;
+  background: $black-color;
+  color: $white-color;
+  font-family: $body-font;
+}
