@@ -1,12 +1,15 @@
 import React from 'react';
+import { FaEnvelope } from 'react-icons/fa';
 import Github from '../../common/Github/Github'
 
 const Footer = () => {
   return (
     <footer className='footer'>
-      <div className='footer__icon'>
-        <Github className='footer__icon--github'/>
-        <Github className='footer__icon--github'/>
+      <div className='footer__icons'>
+        <Github className='footer__icons--github'/>
+        <a href="mailto:emilie.gueirard@live.fr" className='footer__icons--mail'>
+                  <FaEnvelope />
+              </a>
       </div>
       <p className='footer__txt'>&copy; 2024 Emilie GUEIRARD | Tous droits réservés</p>
     </footer>

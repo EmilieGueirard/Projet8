@@ -11,7 +11,7 @@ const Header = () => {
       <div className='header__content'>
         <p className='header__content--intro'>Hello, je suis</p>
         <h1 className='header__content--title'>
-        DÉVELOPPEUSE WEB<br />& WEB DESIGNER</h1>
+        DÉVELOPPEUSE WEB <br className='break'/>& WEB DESIGNER</h1>
         <Button text="ME CONTACTER" />
       </div>
     </header>

@@ -10,10 +10,29 @@
     align-items: center;
     gap: 20px;
 
+    @media screen and (max-width: 400px) {
+      gap: 10px; 
+    }
+
+    a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &--icon {
+      --github-icon-size: 35px;
+      --github-icon-color: $white-color;
+    }
+
     &--title {
       font-size: 20px;
       letter-spacing: 1px;
       font-weight: 500;
+
+      @media screen and (max-width: 400px) {
+        font-size: 16px; 
+      }
     }
   }
   

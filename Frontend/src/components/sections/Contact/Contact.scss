@@ -1,0 +1,50 @@
+@import '../../../assets/styles/Variables.scss';
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 50px;
+  box-sizing: border-box;
+  margin-top: -160px;
+
+  @media screen and (max-width: 768px) {
+    padding-inline: 30px;
+    margin-top: 0;
+  }
+
+  &__header {
+    display: flex;
+    flex-direction: column;
+    width: 38%;
+    min-width: 300px;
+    
+    @media screen and (max-width: 768px) {
+      align-items: center;
+      width: 100%;
+      min-width: 200px;
+    }
+
+    &--subtitle {
+      font-family: $title-font;
+      font-size: 40px;
+      color: $main-color;
+
+      @media screen and (max-width: 768px) {
+        text-align: center;
+        font-size: 30px;
+      }    
+    }
+
+    &--txt {
+      padding-top: 20px;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 1.4;
+
+      @media screen and (max-width: 768px) {
+        text-align: center;
+        font-size: 16px;
+      }    
+    }
+  }
+}

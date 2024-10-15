@@ -1,0 +1,57 @@
+[
+  {
+    "category": "frontend",
+    "skills": [
+      {
+        "icon": "FaHtml5",
+        "title": "HTML5"
+      },
+      {
+        "icon": "FaCss3Alt",
+        "title": "CSS3"
+      },
+      {
+        "icon": "FaJsSquare",
+        "title": "JavaScript"
+      },
+      {
+        "icon": "FaReact",
+        "title": "React"
+      }
+    ]
+  },
+  {
+    "category": "outils",
+    "skills": [
+      {
+        "icon": "SiVisualstudiocode",
+        "title": "VS Code"
+      },
+      {
+        "icon": "FaFigma",
+        "title": "Figma"
+      },
+      {
+        "icon": "FaGithub",
+        "title": "GitHub"
+      },
+      {
+        "icon": "SiNotion",
+        "title": "Notion"
+      }
+    ]
+  },
+  {
+    "category": "backend",
+    "skills": [
+      {
+        "icon": "FaNodeJs",
+        "title": "Node.js"
+      },
+      {
+        "icon": "SiMongodb",
+        "title": "MongoDB"
+      }
+    ]
+  }
+]

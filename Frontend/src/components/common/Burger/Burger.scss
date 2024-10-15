@@ -4,23 +4,36 @@
   position: relative;
   z-index: 150;
 
-  &__icon {
+  &__open--icon {
     font-size: 35px;
     cursor: pointer;
 
-    &:hover {
-      color: $main-color;
+      &:hover {
+        color: $main-color;
+      }
+
+      &:focus {
+        color: $main-color;
+      }
     }
 
-    &.fatimes {
+  &__close {
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    z-index: 200;
+
+    &--icon {
+      font-size: 35px;
+      cursor: pointer;
       color: $black-color;
 
       &:hover {
         color: $main-color;
       }
     }
-
   }
+  
 
   &__overlay {
     position: fixed;
@@ -36,13 +49,21 @@
     position: fixed;
     top: 0;
     right: 0;
-    width: 25%;
+    width: 300px;
     height: 100vh;
-    padding: 60px 20px 20px 20px ;
+    padding: 100px 20px 20px 20px;
     background: $white-color;
     z-index: 120;
     transform: translateX(100%); 
     animation: slideIn 0.3s forwards; 
+
+      @media screen and (max-width: 500px) {
+        width: 250px;
+      }
+
+      @media screen and (max-width: 400px) {
+        width: 200px;
+      }
 
     &--items {
       list-style: none;
@@ -57,13 +78,61 @@
       text-decoration: none;
       transition: color 0,3s;
       color: $black-color;
-      font-size: 40px;
+      font-size: 35px;
       font-family: $title-font;
+
+      @media screen and (max-width: 500px) {
+        font-size: 30px;
+      }
+
+      @media screen and (max-width: 500px) {
+        font-size: 23px;
+      }
       
       &:hover {
         color: $main-color;
       }
     } 
+
+    &--icons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 40px;
+      padding: 20px;
+      
+      a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 50px;
+        color: $black-color;
+        transition: color 0.5s;
+
+        &:hover {
+          color: $main-color;
+        }
+
+        @media screen and (max-width: 500px) {
+          font-size: 40px;
+        }
+  
+        @media screen and (max-width: 400px) {
+          font-size: 30px;
+        }
+      }
+
+      &--github {
+        @media screen and (max-width: 500px) {
+          --github-icon-size: 40px;
+          padding-top: 0;
+        }
+  
+        @media screen and (max-width: 400px) {
+          --github-icon-size: 30px;
+        }
+      }
+    }
   }
 }
 
@@ -75,8 +144,3 @@
     transform: translateX(0);
   }
 }
-
-
-
-
-

@@ -25,7 +25,35 @@
   &__txt {
     font-family: $title-font;
     text-transform: uppercase;
+    text-align: center;
     font-size: 50px;
     font-weight: 700;
+    line-height: 1.5;
+    padding-inline: 50px;
+
+    @media screen and (max-width: 890px) {
+      font-size: 38px;
+    }
+
+    @media screen and (max-width: 768px) {
+      font-size: 35px;
+    }
+
+    @media screen and (max-width: 620px) {
+      font-size: 30px;
+    }
+
+    @media screen and (max-width: 380px) {
+      font-size: 25px;
+    }
+
+    &--break {
+      display: none;
+    
+      @media screen and (max-width: 620px) {
+        display: block;
+      }
+    }
   }
 }
+

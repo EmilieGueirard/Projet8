@@ -1,0 +1,33 @@
+@import '../../../assets/styles/Variables.scss';
+
+.category {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 15px;
+  padding: 50px 50px 0 50px;
+  width: 50%;
+  box-sizing: border-box;
+  
+  @media screen and (max-width: 1024px) {
+    width: 100%;
+    padding-top: 30px;
+  }
+
+  @media screen and (max-width: 768px) {
+    align-items: center;
+    padding: 30px 0 0 0;
+    gap: 30px;
+  }
+
+  &__skills {
+    display: flex;
+    width: 100%;
+    
+    @media screen and (max-width: 768px) {
+      justify-content: center;
+    }
+  
+  }
+}

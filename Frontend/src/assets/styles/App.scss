@@ -5,10 +5,15 @@
 @import '../../components/common/Burger/Burger';
 @import '../../components/common/Github/Github';
 @import '../../components/common/Quote/Quote';
+@import '../../components/common/Form/Form';
+@import '../../components/common/IconSkill/IconSkill';
+@import '../../components/common/CategorySkill/CategorySkill';
 @import '../../components/common/SkillCollectionCard/SkillCollectionCard';
 @import '../../components/sections/Header/Header';
 @import '../../components/sections/Presentation/Presentation';
 @import '../../components/sections/SkillsCollection/SkillsCollection';
+@import '../../components/sections/Skills/Skills';
+@import '../../components/sections/Contact/Contact';
 @import '../../components/sections/Footer/Footer';
 
 * {
@@ -23,4 +28,28 @@ body {
   background: $black-color;
   color: $white-color;
   font-family: $body-font;
+}
+
+h2 {
+  font-family: $title-font;
+  font-size: 60px;
+
+  @media screen and (max-width: 768px) {
+    font-size: 40px; 
+  }
+}
+
+h3 {
+  font-family: $title-font;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 1px;
+
+  @media screen and (max-width: 768px) {
+    font-size: 30px; 
+  }
+
+  @media screen and (max-width: 410px) {
+    font-size: 20px; 
+  }
 }

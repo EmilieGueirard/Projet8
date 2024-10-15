@@ -1,0 +1,85 @@
+@import '../../../assets/styles/Variables.scss';
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 40px;
+  box-sizing: border-box;
+  margin-top: -60px;
+
+    @media screen and (max-width: 768px) {
+      margin-top: 30px;  
+    }
+  
+  &__left, &__right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-width: 400px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    
+    @media screen and (max-width: 1024px) {
+       min-width: 300px;
+    }
+    
+    @media screen and (max-width: 768px) {
+      width: 100%;
+      min-width: 200px;    
+    }
+
+  }
+
+  &__label {
+    font-size: 20px;
+    font-weight: 500;
+    color: $main-color;
+    font-family: $title-font;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  &__input {
+    height: 45px;
+    padding: 20px;
+    font-size: 16px;
+    font-family: $body-font;
+    color: $white-color;
+    border: 1px solid $main-color;
+    border-radius: 5px;
+    background: transparent;
+    margin-top: -13px;
+    box-sizing: border-box;
+
+    &::placeholder {
+      color: $white-color;  
+      font-family: $body-font;  
+    }
+  }
+
+  &__textarea {
+    padding: 20px;
+    font-size: 16px;
+    font-family: $body-font;
+    color: $white-color;
+    border: 1px solid $main-color;
+    border-radius: 5px;
+    height: 250px;
+    margin-top: -13px;
+    background: transparent;
+    box-sizing: border-box;
+    
+    &::placeholder {
+      color: $white-color;  
+      font-family: $body-font;  
+    }
+  }
+
+  &__button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+}

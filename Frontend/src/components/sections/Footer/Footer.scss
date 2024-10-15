@@ -9,21 +9,50 @@
   gap: 10px;
   padding: 50px;
 
-  &--github {
-    padding: 0 10px;
-  }
-
   &__txt {
     color: $black-color;
     font-weight: 600;
     font-size: 18px;
+    text-align: center;
+
+    @media screen and (max-width: 768px) {
+      font-size: 16px;
+    }
+  }
+
+  &__icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+    a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 45px;
+      color: $black-color;
+      transition: color 0.5s;
+
+      &:hover {
+        color: $white-color;
+      }
+
+      @media screen and (max-width: 768px) {
+        font-size: 40px;
+      }
+    }
+
+    &--github {
+      --github-icon-size: 45px;
+      --github-icon-hover: $white-color;
+
+      @media screen and (max-width: 768px) {
+        --github-icon-size: 40px;
+      }
+
+    }
   }
 }
 
-.footer__icon--github {
-  padding: 0 5px;
 
-  &:hover {
-    color: $white-color;
-  }
-}

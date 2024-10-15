@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FaBars, FaTimes } from 'react-icons/fa';
+import { FaBars, FaTimes, FaEnvelope } from 'react-icons/fa';
 import Github from '../../common/Github/Github';
 
 const Burger = ({ menuItems }) => {
@@ -7,7 +7,7 @@ const Burger = ({ menuItems }) => {
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
-    // Bloquer/débloquer le scroll du body
+    // ON/OFF scroll body
     if (!menuOpen) {
       document.body.style.overflow = 'hidden';
     } else {
@@ -16,21 +16,29 @@ const Burger = ({ menuItems }) => {
   };
 
   return (
-    <div className='burger-container'>
-      {/* Icône burger ou croix */}
-      <div className='burger'>
-        {menuOpen ? (
-          <FaTimes className='burger__icon fatimes' onClick={toggleMenu} />
-        ) : (
-          <FaBars className='burger__icon' onClick={toggleMenu} />
-        )}
-      </div>
+    <div className='burger'>
 
-      {/* Menu et Overlay (affiché uniquement quand menuOpen est vrai) */}
+      {/* Icon Burger : Open Menu */}
+      {!menuOpen && (
+        <div className='burger__open'>
+          <FaBars className='burger__open--icon' onClick={toggleMenu} />
+        </div>
+      )}
+
+      {/* Icon FaTimes : Close Menu */}
+      {menuOpen && (
+        <div className='burger__close'>
+          <FaTimes className='burger__close--icon' onClick={toggleMenu} />
+        </div>
+      )}
+
+      {/* Menu & Overlay */}
       {menuOpen && (
         <div className='burger__wrapper'>
           <div className='burger__overlay' onClick={toggleMenu}></div>
+          
           <div className='burger__menu'>
+
             <ul className='burger__menu--items'>
               {menuItems.map((item, index) => (
                 <li className='burger__menu--item' key={index}>
@@ -38,10 +46,19 @@ const Burger = ({ menuItems }) => {
                 </li>
               ))}
             </ul>
-            <Github className='burger__menu--github' />
+
+            <div className='burger__menu--icons'>
+              <Github className='burger__menu--icons--github' />
+              <a href="mailto:emilie.gueirard@live.fr" className='burger__menu--icons--mail'>
+                  <FaEnvelope />
+              </a>
+            </div>
+
           </div>
+
         </div>
       )}
+      
     </div>
   );
 };

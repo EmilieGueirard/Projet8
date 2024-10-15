@@ -1,0 +1,30 @@
+@import '../../../assets/styles/Variables.scss';
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 130px;
+  max-width: 130px;
+  flex-grow: 1;
+  
+  &__icon {
+    font-size: 50px;
+    color: $main-color;
+
+    @media screen and (max-width: 450px) {
+      font-size: 37px;
+    }
+  }
+
+  &__title {
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+
+    @media screen and (max-width: 450px) {
+      font-size: 14px;
+    }
+  }
+}
