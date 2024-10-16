@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Booki",
+    "technologies": "HTML5 - CSS3",
+    "description": "Page d'accueil d'une agence de voyage responsive",
+    "image": "/booki.webp",
+    "difficulty": 1
+  },
+  {
+    "id": 2,
+    "title": "Portfolio Sophie Bluel",
+    "technologies": "JavaScript - API",
+    "description": "Page web dynamique d'une architecte",
+    "image": "/booki.webp",
+    "difficulty": 3
+  },
+  {
+    "id": 3,
+    "title": "Nina Carducci",
+    "technologies": "SEO - Accessibilité - Chrome DevTools",
+    "description": "Débugguez et optimisez un site de photographe",
+    "image": "/booki.webp",
+    "difficulty": 2
+  },
+  {
+    "id": 4,
+    "title": "Kasa",
+    "technologies": "React - Animation CSS - SASS",
+    "description": "Application web de location immobilière avec REACT",
+    "image": "/booki.webp",
+    "difficulty": 3
+  },
+  {
+    "id": 5,
+    "title": "Mon Vieux Grimoire",
+    "technologies": "Node.js - Express - MongoDB",
+    "description": "Création du back-end d’un site de notation de livres",
+    "image": "/booki.webp",
+    "difficulty": 3
+  }
+]

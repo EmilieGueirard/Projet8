@@ -12,6 +12,7 @@
   font-weight: 600;
   font-size: 20px;
   letter-spacing: 1px;
+  border: 1px solid transparent;
 
   @media screen and (max-width: 768px) {
     font-size: 16px;
@@ -19,6 +20,8 @@
   }    
 
     &:hover {
-        background: $white-color;
+        background: transparent;
+        border-color: $white-color;
+        color: $white-color;
     }
 }

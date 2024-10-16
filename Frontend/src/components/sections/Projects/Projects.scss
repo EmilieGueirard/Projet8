@@ -1,0 +1,52 @@
+@import '../../../assets/styles/Variables.scss';
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+
+  &__title {
+    text-align: center;
+  }
+  &__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    padding-inline: 50px;
+    
+    width: 100%;
+    box-sizing: border-box;
+
+    @media screen and (max-width: 768px) {
+      padding-inline: 30px;
+      gap: 25px; 
+    }
+  }
+
+  &__modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 500px;
+    background: $white-color;
+    color: $black-color;
+    padding: 30px;
+    border-radius: 10px;
+    z-index: 1000;
+    overflow-y: auto;
+    box-sizing: border-box;
+
+    &--overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.7);
+      z-index: 999;
+    }
+  }
+}

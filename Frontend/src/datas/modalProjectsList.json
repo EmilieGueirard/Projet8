@@ -1,0 +1,187 @@
+[
+  {
+    "id": 1,
+    "title": "Booki",
+    "images": [
+      "/booki.webp",
+      "/booki.webp"
+    ],
+    "description": {
+      "text": [
+        "Créer la page d'accueil d'une agence de voyage en utilisant HTML5 et CSS3",
+        "Créer une interface responsive (tablette et mobile)"
+      ]
+    },
+    "challenges": {
+      "title": "Difficultés rencontrées",
+      "items": [
+        {
+          "text": "Gestion des marges du <body>, utilisation de Flexbox, débordement des cards, taille identique des cards"
+        }
+      ]
+    },
+    "solutions": {
+      "title": "Solutions",
+      "items": [
+        {
+          "text": "Jeu avec Flexbox"
+        }
+      ]
+    },
+    "technologies": {
+      "text": "HTML5 - CSS3"
+    },
+    "link": {
+      "text": "Lien du site",
+      "url": "https://github.com/EmilieGueirard/Projet2.git"
+    }
+  },
+  {
+    "id": 2,
+    "title": "Portfolio Sophie Bluel",
+    "images": [
+      "/booki.webp",
+      "/booki.webp"
+    ],
+    "description": {
+      "text": [
+        "Page web dynamique d'une architecte",
+        "Créer une interface responsive (tablette et mobile)"
+      ]
+    },
+    "challenges": {
+      "title": "Difficultés rencontrées",
+      "items": [
+        {
+          "text": "Gestion des marges du <body>, utilisation de Flexbox, débordement des cards, taille identique des cards"
+        }
+      ]
+    },
+    "solutions": {
+      "title": "Solutions",
+      "items": [
+        {
+          "text": "Jeu avec Flexbox"
+        }
+      ]
+    },
+    "technologies": {
+      "text": "JavaScript - API"
+    },
+    "link": {
+      "text": "Lien du site",
+      "url": "https://github.com/EmilieGueirard/Projet3.git"
+    }
+  },
+  {
+    "id": 3,
+    "title": "Nina Carducci",
+    "images": [
+      "/booki.webp",
+      "/booki.webp"
+    ],
+    "description": {
+      "text": [
+        "Débugguez et optimisez un site de photographe",
+        "Créer une interface responsive (tablette et mobile)"
+      ]
+    },
+    "challenges": {
+      "title": "Difficultés rencontrées",
+      "items": [
+        {
+          "text": "Gestion des marges du <body>, utilisation de Flexbox, débordement des cards, taille identique des cards"
+        }
+      ]
+    },
+    "solutions": {
+      "title": "Solutions",
+      "items": [
+        {
+          "text": "Jeu avec Flexbox"
+        }
+      ]
+    },
+    "technologies": {
+      "text": "SEO - Accessibilité - Chrome DevTools"
+    },
+    "link": {
+      "text": "Lien du site",
+      "url": "https://github.com/EmilieGueirard/Projet4.git"
+    }
+  },
+  {
+    "id": 4,
+    "title": "Kasa",
+    "images": [
+      "/booki.webp",
+      "/booki.webp"
+    ],
+    "description": {
+      "text": [
+        "Application web de location immobilière avec REACT",
+        "Créer une interface responsive (tablette et mobile)"
+      ]
+    },
+    "challenges": {
+      "title": "Difficultés rencontrées",
+      "items": [
+        {
+          "text": "Gestion des marges du <body>, utilisation de Flexbox, débordement des cards, taille identique des cards"
+        }
+      ]
+    },
+    "solutions": {
+      "title": "Solutions",
+      "items": [
+        {
+          "text": "Jeu avec Flexbox"
+        }
+      ]
+    },
+    "technologies": {
+      "text": "React - Animation CSS - SASS"
+    },
+    "link": {
+      "text": "Lien du site",
+      "url": "https://github.com/EmilieGueirard/Projet5.git"
+    }
+  },
+  {
+    "id": 5,
+    "title": "Mon Vieux Grimoire",
+    "images": [
+      "/booki.webp",
+      "/booki.webp"
+    ],
+    "description": {
+      "text": [
+        "Création du back-end d’un site de notation de livres",
+        "Créer une interface responsive (tablette et mobile)"
+      ]
+    },
+    "challenges": {
+      "title": "Difficultés rencontrées",
+      "items": [
+        {
+          "text": "Gestion des marges du <body>, utilisation de Flexbox, débordement des cards, taille identique des cards"
+        }
+      ]
+    },
+    "solutions": {
+      "title": "Solutions",
+      "items": [
+        {
+          "text": "Jeu avec Flexbox"
+        }
+      ]
+    },
+    "technologies": {
+      "text": "Node.js - Express - MongoDB"
+    },
+    "link": {
+      "text": "Lien du site",
+      "url": "https://github.com/EmilieGueirard/Projet6.git"
+    }
+  }
+]
