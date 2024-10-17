@@ -10,7 +10,7 @@ import ScrollToTop from '../components/common/ScrollToTop/ScrollToTop';
 
 function App() {
     return (
-      <Router>
+      <Router basename="/Projet8">
         <Header />
         <Presentation />
         <SkillsCollection />
