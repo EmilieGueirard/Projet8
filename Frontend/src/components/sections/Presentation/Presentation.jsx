@@ -3,7 +3,7 @@ import image from '../../../assets/images/interface-developpement-web-ordi-mobil
 
 const Presentation = () => {
   return (
-    <section id='presentation' className='presentation'>
+    <section id='présentation' className='presentation'>
       <header className='presentation__header'>
         <img className='presentation__header--img' src={image} alt="Interface d'ordinateur et mobile"/>
       </header>
