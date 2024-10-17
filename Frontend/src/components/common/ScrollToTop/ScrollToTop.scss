@@ -1,0 +1,43 @@
+@import '../../../assets/styles/Variables.scss';
+
+.scroll {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  bottom: 20px;
+  right: 20px;
+  background: rgba(255, 255, 255, 0.8);
+  color: $black-color; 
+  width: 50px; 
+  height: 50px; 
+  border-radius: 50%; 
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.4s ease, visibility 0.4s ease;
+
+    @media screen and (max-width: 768px) {
+      width: 35px; 
+      height: 35px; 
+      right: 10px;
+    }
+
+  &.show {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  &:hover {
+    background-color: $light-color;
+    color: $white-color;
+  }
+
+  &__icon {
+    font-size: 24px;
+
+    @media screen and (max-width: 768px) {
+      font-size: 20px;
+    }
+  }
+}

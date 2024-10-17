@@ -83,3 +83,45 @@
     width: 100%;
   }
 }
+
+.form__error {
+  color: $white-color;
+  font-size: 14px;
+  margin-top: -10px; 
+}
+
+.modalsucces {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30%;
+  background: $white-color;
+  color: $black-color;
+  padding: 30px;
+  border-radius: 10px;
+  z-index: 1000;
+  overflow-y: auto;
+  box-sizing: border-box;
+  outline: none;
+  text-align: center;
+
+    @media screen and (max-width: 1024px) {
+      width: 50%;
+    }
+  
+    @media screen and (max-width: 768px) {
+      padding: 30px 20px;
+      width: 80%;
+    }
+
+  &__overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 999;
+  }
+}

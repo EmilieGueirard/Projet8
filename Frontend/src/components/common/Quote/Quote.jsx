@@ -7,7 +7,9 @@ const Quote = () => {
     <div className='quote'>
       <img className='quote__background' src={image} alt="Clavier ordinateur"/>
       <span className='quote__txt'>" Le code au service de <br className='quote__txt--break' />la créativité ! "</span>
-      <Button text={`BESOIN D'IDÉES ?`}/>
+      <a href="#contact">
+          <Button text={`BESOIN D'IDÉES ?`} />
+      </a>
     </div>
   );
 };

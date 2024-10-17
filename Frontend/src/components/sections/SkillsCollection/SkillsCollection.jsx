@@ -5,7 +5,7 @@ import skillsCollectionData from '../../../datas/skillsCollectionList.json'
 
 const SkillsCollection = () => {
   return (
-    <section className='collection'>
+    <section id='services' className='collection'>
       <h2 className='collection__title'>MA COLLECTION DE SKILLS</h2>
       <div className='collection__cards'>
         {skillsCollectionData.map((skill, index) => (

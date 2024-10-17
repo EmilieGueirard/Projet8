@@ -1,0 +1,26 @@
+@import '../../../assets/styles/Variables.scss';
+
+.modalsucces {
+
+  &__content {
+  font-size: 24px;
+  font-weight: 700;
+  }
+  &__button {
+    margin-top: 20px;
+    padding: 5px 25px;
+    background: $main-color;
+    color: $black-color;
+    font-size: 24px;
+    font-family: $title-font;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+    &:hover {
+      background: $black-color;
+      color: $white-color;
+    }
+  }
+}

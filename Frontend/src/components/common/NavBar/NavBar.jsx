@@ -4,10 +4,10 @@ import Burger from '../../common/Burger/Burger';
 
 const Navbar = () => {
   const menuItems = [
-    { href: '#presentation', label: 'Présentation' },
+    { href: '#présentation', label: 'Présentation' },
     { href: '#services', label: 'Mes Services' },
-    { href: '#projects', label: 'Mes Projets' },
-    { href: '#skills', label: 'Mes Compétences' },
+    { href: '#projets', label: 'Mes Projets' },
+    { href: '#compétences', label: 'Mes Compétences' },
     { href: '#contact', label: 'Contact' },
   ];
 

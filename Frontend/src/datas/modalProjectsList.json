@@ -32,7 +32,7 @@
       "text": "HTML5 - CSS3"
     },
     "link": {
-      "text": "Lien du site",
+      "text": "Lien du projet",
       "url": "https://github.com/EmilieGueirard/Projet2.git"
     }
   },
@@ -53,7 +53,7 @@
       "title": "Difficultés rencontrées",
       "items": [
         {
-          "text": "Gestion des marges du <body>, utilisation de Flexbox, débordement des cards, taille identique des cards"
+          "text": "Gestion des marges du <body>"
         }
       ]
     },
@@ -69,7 +69,7 @@
       "text": "JavaScript - API"
     },
     "link": {
-      "text": "Lien du site",
+      "text": "Lien du projet",
       "url": "https://github.com/EmilieGueirard/Projet3.git"
     }
   },
@@ -106,7 +106,7 @@
       "text": "SEO - Accessibilité - Chrome DevTools"
     },
     "link": {
-      "text": "Lien du site",
+      "text": "Lien du projet",
       "url": "https://github.com/EmilieGueirard/Projet4.git"
     }
   },
@@ -127,7 +127,7 @@
       "title": "Difficultés rencontrées",
       "items": [
         {
-          "text": "Gestion des marges du <body>, utilisation de Flexbox, débordement des cards, taille identique des cards"
+          "text": "Gestion des marges du body"
         }
       ]
     },
@@ -143,7 +143,7 @@
       "text": "React - Animation CSS - SASS"
     },
     "link": {
-      "text": "Lien du site",
+      "text": "Lien du projet",
       "url": "https://github.com/EmilieGueirard/Projet5.git"
     }
   },
@@ -180,7 +180,7 @@
       "text": "Node.js - Express - MongoDB"
     },
     "link": {
-      "text": "Lien du site",
+      "text": "Lien du projet",
       "url": "https://github.com/EmilieGueirard/Projet6.git"
     }
   }

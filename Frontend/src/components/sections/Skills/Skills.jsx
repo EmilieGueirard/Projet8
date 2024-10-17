@@ -5,7 +5,7 @@ import image from '../../../assets/images/interface-developpement-web-ordi.webp'
 
 const Skills = () => {
   return (
-    <section className='skills'>
+    <section id='compétences' className='skills'>
       <h2 className='skills__header'>MES COMPÉTENCES</h2>
       <div className='skills__content'>
         <div className='skills__content--categories'>

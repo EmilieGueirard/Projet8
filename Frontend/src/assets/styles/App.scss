@@ -1,5 +1,7 @@
 @import 'normalize.css';
 @import 'Variables';
+
+//Components Common
 @import '../../components/common/Button/Button';
 @import '../../components/common/NavBar/NavBar';
 @import '../../components/common/Burger/Burger';
@@ -12,6 +14,10 @@
 @import '../../components/common/IconSkill/IconSkill';
 @import '../../components/common/CategorySkill/CategorySkill';
 @import '../../components/common/SkillCollectionCard/SkillCollectionCard';
+@import '../../components/common/ScrollToTop/ScrollToTop';
+@import '../../components/common/ModalSucces/ModalSucces';
+
+// Components Sections
 @import '../../components/sections/Header/Header';
 @import '../../components/sections/Presentation/Presentation';
 @import '../../components/sections/SkillsCollection/SkillsCollection';
@@ -19,6 +25,10 @@
 @import '../../components/sections/Projects/Projects';
 @import '../../components/sections/Contact/Contact';
 @import '../../components/sections/Footer/Footer';
+
+html {
+  scroll-behavior: smooth;
+}
 
 * {
   margin: 0;

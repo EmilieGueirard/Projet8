@@ -3,25 +3,32 @@ import Modal from 'react-modal';
 import Quote from '../../common/Quote/Quote';
 import ProjectCard from '../../common/ProjectCard/ProjectCard';
 import projectsList from '../../../datas/projectsList.json';
+import modalProjectsList from '../../../datas/modalProjectsList.json';
 import ProjectsSlideShow from '../../common/ProjectsSlideshow/ProjectsSlideshow';
-import ModalProject from '../../common/ModalProject/ModalProject'
+import ModalProject from '../../common/ModalProject/ModalProject';
 
 Modal.setAppElement('#root');
 
 const Projects = () => {
 
   const [modalIsOpen, setModalIsOpen] = useState(false);
+  const [selectedProject, setSelectedProject] = useState(null);
 
-  const openModal = () => {
-    setModalIsOpen(true);
+  const openModal = (projectId) => {
+    const project = modalProjectsList.find((item) => item.id === projectId);
+    if (project) {
+      setSelectedProject(project);
+      setModalIsOpen(true);
+    }
   };
 
   const closeModal = () => {
     setModalIsOpen(false);
+    setSelectedProject(null);
   };
   
   return (
-    <section className='projects'>
+    <section id='projets' className='projects'>
       <h2 className='projects__title'>MES PROJETS</h2>
       <ProjectsSlideShow />
 
@@ -34,7 +41,7 @@ const Projects = () => {
             technologies={project.technologies}
             image={project.image}
             difficulty={project.difficulty}
-            onClick={openModal}
+            onClick={() => openModal(project.id)}
           />
         ))}
       </div>
@@ -46,13 +53,14 @@ const Projects = () => {
         overlayClassName='projects__modal--overlay'
         ariaHideApp={false}
       >
-        <ModalProject closeModal={closeModal} />
+        {selectedProject && (
+          <ModalProject closeModal={closeModal} project={selectedProject} />
+        )}
       </Modal>
     
       <div className='projects__quote'>
         <Quote />
       </div>
-
       
     </section>
   );

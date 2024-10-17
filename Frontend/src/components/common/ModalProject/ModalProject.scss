@@ -1,39 +1,135 @@
 @import '../../../assets/styles/Variables.scss';
 
-
-
-.modal__close {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  font-size: 24px;
-  color: $main-color;
-  cursor: pointer;
-
-  &:hover {
-    color: darken($main-color, 10%);
-  }
-}
-
-.modal__content {
+.modal {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  position: relative;
+  gap: 20px;
+  overflow-y: auto;
 
-  &--title {
-    font-size: 24px;
-    font-weight: bold;
+  &__header {
+   margin-top: 20px;
+
+    &--close {
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      font-size: 24px;
+      color: $black-color;
+      cursor: pointer;
+
+      &:hover {
+        color: $main-color;
+      }
+    }
+
+    &--title {
+      @media screen and (max-width: 768px) {
+        font-size: 20px;  
+      }
+    }
   }
 
-  &--image {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-    object-fit: cover;
-  }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    box-sizing: border-box;
+   
+    &--images {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      width: 100%;
+      padding-bottom: 10px;
+      box-sizing: border-box;
+    
+      &--img {
+        width: 45%;
+        object-fit: contain;
 
-  &--description {
-    font-size: 16px;
-    color: $black-color;
+        @media screen and (max-width: 450px) {
+         width: 80%;
+        }
+      }
+    }
+
+    &--items {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      padding: 0 20px;
+      box-sizing: border-box;
+
+      @media screen and (max-width: 768px) {
+        padding: 0;
+      }
+
+      &--icon {
+        font-size: 28px;
+        flex-shrink: 0;
+
+        @media screen and (max-width: 768px) {
+          font-size: 28px;
+        }
+      }
+
+      &--container {
+        box-sizing: border-box;
+      }
+
+      &--txt {
+        list-style: none;
+        margin-left: -40px;
+
+        @media screen and (max-width: 768px) {
+          font-size: 14px;
+        }
+
+        @media screen and (max-width: 350px) {
+          font-size: 12px;
+        }
+      }
+
+      &--subtitle {
+        font-weight: 700;
+
+        @media screen and (max-width: 768px) {
+          font-size: 14px;
+        }
+
+        @media screen and (max-width: 350px) {
+          font-size: 12px;
+        }
+      }
+
+      &--tech {
+        @media screen and (max-width: 768px) {
+          font-size: 14px;
+        }
+
+        @media screen and (max-width: 350px) {
+          font-size: 12px;
+        }
+      }
+      
+      &--link {
+        text-decoration: none;
+        color: $black-color;
+        font-weight: 500;
+        cursor: pointer;
+
+        &:hover {
+          color: $main-color;
+        }
+      }
+    }
   }
 }
+
+
+
+
+
+
