@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/%3Cprojet8%3E/static/css/main.e29cabfd.css",
+    "main.js": "/%3Cprojet8%3E/static/js/main.2a1359d4.js",
+    "static/media/office-developpeur-web.webp": "/%3Cprojet8%3E/static/media/office-developpeur-web.2bce333bbe860e5b6c2d.webp",
+    "static/media/interface-developpement-web-ordi.webp": "/%3Cprojet8%3E/static/media/interface-developpement-web-ordi.5b04bf885ba68111877a.webp",
+    "static/media/clavier-developpeur-web.webp": "/%3Cprojet8%3E/static/media/clavier-developpeur-web.99d38612c63fc980eab7.webp",
+    "static/media/interface-developpement-web-ordi-mobile.webp": "/%3Cprojet8%3E/static/media/interface-developpement-web-ordi-mobile.ecd7eebde2c2e4b71962.webp",
+    "index.html": "/%3Cprojet8%3E/index.html",
+    "main.e29cabfd.css.map": "/%3Cprojet8%3E/static/css/main.e29cabfd.css.map",
+    "main.2a1359d4.js.map": "/%3Cprojet8%3E/static/js/main.2a1359d4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e29cabfd.css",
+    "static/js/main.2a1359d4.js"
+  ]
+}
