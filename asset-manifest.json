@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Projet8/static/css/main.e29cabfd.css",
-    "main.js": "/Projet8/static/js/main.10568221.js",
+    "main.js": "/Projet8/static/js/main.735f35e8.js",
     "static/media/office-developpeur-web.webp": "/Projet8/static/media/office-developpeur-web.2bce333bbe860e5b6c2d.webp",
     "static/media/interface-developpement-web-ordi.webp": "/Projet8/static/media/interface-developpement-web-ordi.5b04bf885ba68111877a.webp",
     "static/media/clavier-developpeur-web.webp": "/Projet8/static/media/clavier-developpeur-web.99d38612c63fc980eab7.webp",
     "static/media/interface-developpement-web-ordi-mobile.webp": "/Projet8/static/media/interface-developpement-web-ordi-mobile.ecd7eebde2c2e4b71962.webp",
     "index.html": "/Projet8/index.html",
     "main.e29cabfd.css.map": "/Projet8/static/css/main.e29cabfd.css.map",
-    "main.10568221.js.map": "/Projet8/static/js/main.10568221.js.map"
+    "main.735f35e8.js.map": "/Projet8/static/js/main.735f35e8.js.map"
   },
   "entrypoints": [
     "static/css/main.e29cabfd.css",
-    "static/js/main.10568221.js"
+    "static/js/main.735f35e8.js"
   ]
 }
