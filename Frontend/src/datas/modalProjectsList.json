@@ -3,8 +3,8 @@
     "id": 1,
     "title": "Booki",
     "images": [
-      "/Projet8/booki.webp",
-      "/Projet8/booki.webp"
+      "/Projet8/images/projet-1-desktop.webp",
+      "/Projet8/images/projet-1-mobile.webp"
     ],
     "description": {
       "text": [
@@ -40,8 +40,8 @@
     "id": 2,
     "title": "Portfolio Sophie Bluel",
     "images": [
-      "/Projet8/booki.webp",
-      "/Projet8/booki.webp"
+      "/Projet8/images/projet-2-desktop.webp",
+      "/Projet8/images/projet-2-mobile.webp"
     ],
     "description": {
       "text": [
@@ -77,8 +77,8 @@
     "id": 3,
     "title": "Nina Carducci",
     "images": [
-      "/Projet8/booki.webp",
-      "/Projet8/booki.webp"
+      "/Projet8/images/projet-3-desktop.webp",
+      "/Projet8/images/projet-3-mobile.webp"
     ],
     "description": {
       "text": [
@@ -114,8 +114,8 @@
     "id": 4,
     "title": "Kasa",
     "images": [
-      "/Projet8/booki.webp",
-      "/Projet8/booki.webp"
+      "/Projet8/images/projet-4-desktop.webp",
+      "/Projet8/images/projet-4-mobile.webp"
     ],
     "description": {
       "text": [
@@ -151,8 +151,8 @@
     "id": 5,
     "title": "Mon Vieux Grimoire",
     "images": [
-      "/Projet8/booki.webp",
-      "/Projet8/booki.webp"
+      "/Projet8/images/projet-5-desktop.webp",
+      "/Projet8/images/projet-5-mobile.webp"
     ],
     "description": {
       "text": [

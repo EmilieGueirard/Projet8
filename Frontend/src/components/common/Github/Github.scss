@@ -2,8 +2,9 @@
 
 .github {
   display: inline-block;
-  color: var(--github-icon-color, $black-color);
-  transition: color 0.5s;
+  color: var(--github-icon-color, $black-color); 
+  
+  @include scaling-effect(1.2, 0.8s);
 
   &:hover {
     color: var(--github-icon-hover, $main-color); 

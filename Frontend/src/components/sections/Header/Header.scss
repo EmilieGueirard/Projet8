@@ -96,3 +96,19 @@
       }
   }
 }
+
+.header__content--title {
+  white-space: pre; 
+
+  &::after {
+    content: '|'; 
+    animation: blink 1s step-end infinite;
+  }
+}
+
+// Animation du curseur qui clignote
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}

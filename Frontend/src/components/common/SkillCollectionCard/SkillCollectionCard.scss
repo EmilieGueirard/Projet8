@@ -10,6 +10,8 @@
   border-radius: 5px;
   padding: 30px 40px;
   flex-grow: 1;
+
+  @include scaling-effect(1.05, 0.8s);
   
   @media screen and (max-width: 1364px) {
     width: 30%;
@@ -17,6 +19,18 @@
   
   @media screen and (max-width: 768px) {
       width: 100%;
+  }
+
+  &:hover {
+    border: 1px solid $white-color;
+    background: $white-color;
+    .card__icon, .card__txt {
+      color: $main-color;
+    }
+    
+    .card__title {
+      color: $black-color; 
+    }
   }
 
   &__icon {

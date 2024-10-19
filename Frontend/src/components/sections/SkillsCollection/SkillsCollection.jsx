@@ -18,7 +18,9 @@ const SkillsCollection = () => {
         ))}
       </div>
       <p className='collection__txt'>Besoin d’un coup de main pour donner vie à vos idées ?</p>
-      <Button text="TRAVAILLONS ENSEMBLE !"/>
+      <a href='#contact'>
+        <Button text="TRAVAILLONS ENSEMBLE !"/>
+      </a>
     </section>
   );
 };

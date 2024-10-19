@@ -9,6 +9,8 @@
   max-width: 130px;
   flex-grow: 1;
   
+  @include scaling-effect(1.2, 0.6s);
+
   &__icon {
     font-size: 50px;
     color: $main-color;

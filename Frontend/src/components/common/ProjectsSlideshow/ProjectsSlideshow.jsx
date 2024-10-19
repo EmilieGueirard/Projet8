@@ -3,7 +3,7 @@ import projectsList from '../../../datas/projectsList.json';
 
 const ProjectsSlideShow = () => {
   // Trier les projets par difficulté décroissante et prendre les trois premiers
-  const sortedProjects = projectsList.sort((a, b) => b.difficulty - a.difficulty);
+  const sortedProjects = [...projectsList].sort((a, b) => b.difficulty - a.difficulty);
   const bestProjects = sortedProjects.slice(0, 3);
 
   // State pour suivre l'index du slide actuel

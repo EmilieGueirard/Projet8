@@ -32,7 +32,8 @@
       align-items: center;
       font-size: 45px;
       color: $black-color;
-      transition: color 0.5s;
+
+      @include scaling-effect(1.1, 0.5s);
 
       &:hover {
         color: $white-color;
@@ -54,5 +55,3 @@
     }
   }
 }
-
-

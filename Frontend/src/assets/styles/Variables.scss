@@ -9,3 +9,13 @@ $light-color: #999693;
 
 $title-font: 'Antonio', sans-serif;
 $body-font: 'Roboto', sans-serif;
+
+// Mixins
+
+@mixin scaling-effect($scale: 1.1, $duration: 0.3s) {
+  transition: transform $duration ease-in-out;
+  
+  &:hover {
+    transform: scale($scale);
+  }
+}
