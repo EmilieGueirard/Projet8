@@ -57,6 +57,16 @@
       color: $white-color;  
       font-family: $body-font;  
     }
+
+    &:focus {
+      outline: none;
+    }
+
+    &.focus-visible {     
+      outline: 2px solid $white-color;
+      outline-offset: 3px;
+      border-radius: 5px;
+    }
   }
 
   &__textarea {
@@ -74,6 +84,16 @@
     &::placeholder {
       color: $white-color;  
       font-family: $body-font;  
+    }
+
+    &:focus {
+      outline: none;
+    }
+
+    &.focus-visible {     
+      outline: 2px solid $white-color;
+      outline-offset: 3px;
+      border-radius: 5px;
     }
   }
 

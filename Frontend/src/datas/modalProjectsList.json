@@ -16,7 +16,7 @@
       "title": "Difficultés rencontrées",
       "items": [
         {
-          "text": "Gestion des marges du <body>, utilisation de Flexbox, débordement des cards, taille identique des cards"
+          "text": "Gestion des marges du <body>, utilisation de Flexbox, débordement des cards & taille identique des cards"
         }
       ]
     },
@@ -46,14 +46,16 @@
     "description": {
       "text": [
         "Page web dynamique d'une architecte",
-        "Créer une interface responsive (tablette et mobile)"
+        "Communiquer avec une API",
+        "Créer une page de connexion",
+        "Création de modales pour uploader les projets"
       ]
     },
     "challenges": {
       "title": "Difficultés rencontrées",
       "items": [
         {
-          "text": "Gestion des marges du <body>"
+          "text": "Gérer les requêtes avec l’API, empêcher le rafraîchissement des pages, limiter les répétitions de fonctions & simplifier l’écriture des fonctions "
         }
       ]
     },
@@ -61,7 +63,7 @@
       "title": "Solutions",
       "items": [
         {
-          "text": "Jeu avec Flexbox"
+          "text": "Utilisation de Postman"
         }
       ]
     },
@@ -83,14 +85,17 @@
     "description": {
       "text": [
         "Débugguez et optimisez un site de photographe",
-        "Créer une interface responsive (tablette et mobile)"
+        "Performance + SEO + accessibilité",
+        "Mettre en place le référencement local",
+        "Ajouter les metas pour les réseaux sociaux",
+        "Produire un rapport d’optimisation"
       ]
     },
     "challenges": {
       "title": "Difficultés rencontrées",
       "items": [
         {
-          "text": "Gestion des marges du <body>, utilisation de Flexbox, débordement des cards, taille identique des cards"
+          "text": "Doute sur l'importance ou non de certaines balises & débugger le code sur la modale"
         }
       ]
     },
@@ -98,7 +103,7 @@
       "title": "Solutions",
       "items": [
         {
-          "text": "Jeu avec Flexbox"
+          "text": "Recherches sur Google"
         }
       ]
     },
@@ -120,14 +125,16 @@
     "description": {
       "text": [
         "Application web de location immobilière avec REACT",
-        "Créer une interface responsive (tablette et mobile)"
+        "Créer les composants React et les routes React Router",
+        "Respecter les maquettes Figma (responsives)",
+        "Gérer l’animation des menus déroulants (Collapse)"
       ]
     },
     "challenges": {
       "title": "Difficultés rencontrées",
       "items": [
         {
-          "text": "Gestion des marges du body"
+          "text": "Composant qui gère le carousel & gérer l’animation du Collapse"
         }
       ]
     },
@@ -135,7 +142,7 @@
       "title": "Solutions",
       "items": [
         {
-          "text": "Jeu avec Flexbox"
+          "text": "Recherches React Blog"
         }
       ]
     },
@@ -157,14 +164,17 @@
     "description": {
       "text": [
         "Création du back-end d’un site de notation de livres",
-        "Créer une interface responsive (tablette et mobile)"
+        "Créer un server Express + une API RESTful",
+        "Mettre en place un système d’authentification",
+        "Ajouter la gestion des fichiers des utilisateurs",
+        "Bonnes pratiques du Green Code : tailles et optimisation images"
       ]
     },
     "challenges": {
       "title": "Difficultés rencontrées",
       "items": [
         {
-          "text": "Gestion des marges du <body>, utilisation de Flexbox, débordement des cards, taille identique des cards"
+          "text": "Oubli de la fonction next()"
         }
       ]
     },
@@ -172,7 +182,7 @@
       "title": "Solutions",
       "items": [
         {
-          "text": "Jeu avec Flexbox"
+          "text": "Relecture du code"
         }
       ]
     },

@@ -84,6 +84,17 @@
           font-size: 30px;
         }
       }
+
+      &:focus {
+        outline: none;
+      }
+  
+      &.focus-visible {   
+        outline: 3px solid $main-color;
+        outline-offset: 3px;
+        border-radius: 5px;
+        padding: none;
+      }
     }
 
     &--txt {

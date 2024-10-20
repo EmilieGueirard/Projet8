@@ -3,7 +3,17 @@ import { FaStar } from 'react-icons/fa';
 
 const ProjectCard = ({ id, title, technologies, image, difficulty, onClick }) => {
   return (
-    <div className='project' onClick={onClick} id={`project-${id}`}>
+    <div className='project' 
+      onClick={onClick} 
+      id={`project-${id}`} 
+      tabIndex={0} 
+      onKeyDown={(e) => {
+        if (e.key === 'Enter') {
+          onClick();
+        }
+      }}
+      aria-label="Ouvrir le projet">
+
       {/* Image du projet */}
       <img src={image} alt={`Page d'accueil du projet ${title}`} className='project__img' />
       

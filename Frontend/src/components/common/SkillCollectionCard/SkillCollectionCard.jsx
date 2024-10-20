@@ -6,7 +6,7 @@ const SkillCollectionCard = ({ icon, title, description}) => {
   const IconComponent = Icons[icon] || MdIcons[icon];
 
   return (
-    <div className='card'>
+    <div className='card' tabIndex='0'  >
       {IconComponent && <IconComponent className='card__icon' />}
       <h3 className='card__title'>{title}</h3>
       <p className='card__txt'>{description}</p>

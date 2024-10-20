@@ -67,3 +67,11 @@ h3 {
     font-size: 20px; 
   }
 }
+
+a:focus {
+  outline: none;  
+}
+
+a.focus-visible {
+  outline: none;    
+}

@@ -21,14 +21,26 @@ const Burger = ({ menuItems }) => {
       {/* Icon Burger : Open Menu */}
       {!menuOpen && (
         <div className='burger__open'>
-          <FaBars className='burger__open--icon' onClick={toggleMenu} />
+          <FaBars className='burger__open--icon' 
+          onClick={toggleMenu} 
+          tabIndex={0} 
+          aria-label='Ouvrir le menu' 
+          onKeyDown={(e) => {
+            if (e.key === 'Enter') toggleMenu();
+          }}/>
         </div>
       )}
 
       {/* Icon FaTimes : Close Menu */}
       {menuOpen && (
         <div className='burger__close'>
-          <FaTimes className='burger__close--icon' onClick={toggleMenu} />
+          <FaTimes className='burger__close--icon' 
+          onClick={toggleMenu}
+          tabIndex={0} 
+          aria-label='Fermer le menu' 
+          onKeyDown={(e) => {
+            if (e.key === 'Enter') toggleMenu();
+          }} />
         </div>
       )}
 
@@ -42,7 +54,14 @@ const Burger = ({ menuItems }) => {
             <ul className='burger__menu--items'>
               {menuItems.map((item, index) => (
                 <li className='burger__menu--item' key={index}>
-                  <a className='burger__menu--link' href={item.href}>{item.label}</a>
+                  <a className='burger__menu--link' 
+                  href={item.href}
+                  onKeyDown={(e) => {
+                    if (e.key === 'Enter') {
+                      window.location.href = item.href; 
+                    }
+                  }}
+                  >{item.label}</a>
                 </li>
               ))}
             </ul>

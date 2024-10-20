@@ -20,6 +20,16 @@
     @media screen and (max-width: 768px) {
       text-align: center;
     }
+
+    &:focus {
+      outline: none;
+    }
+
+    &.focus-visible {   
+      outline: 3px solid $main-color;
+      outline-offset: 3px;
+      border-radius: 5px;
+    }
   }
 
   &__cards {

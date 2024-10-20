@@ -7,6 +7,17 @@
 
   &__title {
     text-align: center;
+  
+    &:focus {
+      outline: none;
+    }
+
+    &.focus-visible {   
+      outline: 3px solid $main-color;
+      outline-offset: 3px;
+      border-radius: 5px;
+    }
+
   }
   &__cards {
     display: flex;

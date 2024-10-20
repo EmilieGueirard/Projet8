@@ -32,6 +32,16 @@
     }
   }
 
+  &:focus {
+    outline: none;
+  }
+
+  &.focus-visible {   
+    outline: 3px solid $white-color;
+    outline-offset: 3px;
+    border-radius: 5px;
+  }
+
   &__icon {
     font-size: 80px;
     color: $main-color;

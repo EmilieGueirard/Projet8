@@ -69,7 +69,7 @@ const Header = () => {
         <h1 className='header__content--title'>
         <span dangerouslySetInnerHTML={{ __html: displayedText }} />
         </h1>
-        <a href="#contact">
+        <a href="#contact" tabIndex='-1'>
           <Button text="ME CONTACTER" />
         </a>
       </div>

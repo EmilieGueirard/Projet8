@@ -27,8 +27,16 @@ const ScrollToTop = () => {
   }, []);
 
   return (
-    <div className={`scroll ${isVisible ? 'show' : ''}`} onClick={scrollToTop}>
-      <FaArrowUp className="scroll__icon" />
+    <div className={`scroll ${isVisible ? 'show' : ''}`} 
+      onClick={scrollToTop} 
+      tabIndex={0}
+      onKeyDown={(e) => {
+        if (e.key === 'Enter') {
+          scrollToTop();
+        }
+      }}
+      aria-label="Remonter en haut de la page">
+      <FaArrowUp className='scroll__icon' />
     </div>
   );
 };

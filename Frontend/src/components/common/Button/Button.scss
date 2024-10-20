@@ -7,7 +7,6 @@
   background: $main-color;
   border-radius: 5px;
   cursor: pointer;
-  transition: 0.5s;
   color: $black-color;
   font-family: $title-font;
   font-weight: 600;
@@ -26,5 +25,14 @@
         background: transparent;
         border-color: $white-color;
         color: $white-color;
+    }
+
+    &:focus {
+      outline: none;
+    }
+
+    &.focus-visible {   
+      outline: 3px solid $white-color;
+      outline-offset: 3px;
     }
 }

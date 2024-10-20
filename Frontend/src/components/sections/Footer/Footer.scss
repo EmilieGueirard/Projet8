@@ -38,7 +38,17 @@
       &:hover {
         color: $white-color;
       }
+      
+      &:focus {
+        outline: none;
+      }
 
+      &.focus-visible {     
+        outline: 3px solid $white-color;
+        outline-offset: 3px;
+        border-radius: 5px;   
+      }
+      
       @media screen and (max-width: 768px) {
         font-size: 40px;
       }

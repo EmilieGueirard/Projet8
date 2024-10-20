@@ -17,13 +17,24 @@
     flex-direction: column;
     width: 38%;
     min-width: 300px;
-    
+
     @media screen and (max-width: 768px) {
       align-items: center;
       width: 100%;
       min-width: 200px;
     }
 
+    &--title { 
+      &:focus {
+        outline: none;
+      }
+
+      &.focus-visible {     
+        outline: 3px solid $main-color;
+        outline-offset: 3px;
+        border-radius: 5px;
+      }
+    }
     &--subtitle {
       font-family: $title-font;
       font-size: 40px;

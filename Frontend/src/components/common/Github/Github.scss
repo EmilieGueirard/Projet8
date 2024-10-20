@@ -10,6 +10,15 @@
     color: var(--github-icon-hover, $main-color); 
   }
 
+  &.focus-visible {
+    outline: 3px solid $main-color;
+    outline-offset: 3px;
+  }
+
+  &:focus:not(:focus-visible) {
+    outline: none;
+  }   
+
   &__icon {
     font-size: var(--github-icon-size, 50px);
   }

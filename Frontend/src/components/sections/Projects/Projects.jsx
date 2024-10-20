@@ -29,7 +29,7 @@ const Projects = () => {
   
   return (
     <section id='projets' className='projects'>
-      <h2 className='projects__title'>MES PROJETS</h2>
+      <h2 className='projects__title' tabIndex='0'>MES PROJETS</h2>
       <ProjectsSlideShow />
 
       <div className='projects__cards'>

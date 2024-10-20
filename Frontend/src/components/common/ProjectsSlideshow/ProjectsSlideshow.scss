@@ -16,6 +16,7 @@
     width: 80%;
     height: 500px;
     overflow: hidden;
+    padding: 6px 0;
 
     @media screen and (max-width: 1024px) {
       width: 100%;
@@ -39,6 +40,16 @@
     opacity: 0.5;
     transform: scale(0.8);
     cursor: pointer;
+
+    &:focus {
+      outline: none;
+    }
+
+    &.focus-visible {     
+      outline: 3px solid $main-color;
+      outline-offset: 3px;
+      border-radius: 5px; 
+    }
 
     &--active {
       position: relative;
@@ -92,6 +103,17 @@
       &--active {
         background: $main-color;
       }
+
+      &:focus {
+        outline: none;
+      }
+  
+      &.focus-visible {     
+        outline: 3px solid $white-color;
+        outline-offset: 3px;
+        border-radius: 5px;   
+      }
+      
     }
   }
 }

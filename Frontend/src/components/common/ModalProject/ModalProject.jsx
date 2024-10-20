@@ -8,7 +8,15 @@ const ModalProject = ({ closeModal, project }) => {
       
       <div className='modal__header'>
         <h3 className='modal__header--title'>{project.title}</h3>
-        <FaTimes className='modal__header--close' onClick={closeModal} />
+        <FaTimes className='modal__header--close' 
+          onClick={closeModal} 
+          tabIndex={0}
+          onKeyDown={(e) => {
+            if (e.key === 'Enter') {
+              closeModal();
+            }
+          }}
+          aria-label="Fermer le projet"/>
       </div>
       
       <div className='modal__content'>
@@ -59,7 +67,15 @@ const ModalProject = ({ closeModal, project }) => {
 
         <div className='modal__content--items'>
           <FaGithub className='modal__content--items--icon' />
-          <a className='modal__content--items--link' href={project.link.url} target="_blank" rel="noopener noreferrer">
+          <a className='modal__content--items--link' 
+            href={project.link.url} 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            onKeyDown={(e) => {
+              if (e.key === 'Enter') {
+                window.open(project.link.url, '_blank', 'noopener,noreferrer');
+              }
+            }}>
             {project.link.text}
           </a>
         </div>

@@ -14,10 +14,17 @@
         &:hover {
           color: $main-color;
         }
+
+        &.focus-visible {
+          outline: 3px solid $main-color;
+          outline-offset: 3px;
+        }
+
+        &:focus:not(:focus-visible) {
+          outline: none;
+        }
       }
     }
-
-  
 
   &__close {
     position: fixed;
@@ -34,6 +41,15 @@
       &:hover {
         color: $main-color;
       }
+
+      &.focus-visible {
+        outline: 3px solid $main-color;
+        outline-offset: 3px;
+      }
+
+      &:focus:not(:focus-visible) {
+        outline: none;
+      }   
     }
   }
   
@@ -95,11 +111,20 @@
       &:hover {
         color: $main-color;
       }
+
+      &.focus-visible {
+        outline: 3px solid $main-color;
+        outline-offset: 3px;
+      }
+
+      &:focus:not(:focus-visible) {
+        outline: none;
+      }
     } 
 
     &--icons {
       display: flex;
-      justify-content: center;
+      justify-content: center;  
       align-items: center;
       gap: 40px;
       padding: 20px;
@@ -115,6 +140,15 @@
 
         &:hover {
           color: $main-color;
+        }
+
+        &.focus-visible {
+          outline: 3px solid $main-color;
+          outline-offset: 3px;
+        }
+
+        &:focus:not(:focus-visible) {
+          outline: none;
         }
 
         @media screen and (max-width: 500px) {

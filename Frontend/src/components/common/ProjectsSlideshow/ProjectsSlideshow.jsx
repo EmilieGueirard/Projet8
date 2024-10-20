@@ -77,6 +77,7 @@ const ProjectsSlideShow = () => {
               className={`carousel__slide ${positionClass}`} 
               onClick={!isActive ? () => goToSlide(index) : null}
               style={{ cursor: isActive ? 'default' : 'pointer' }}
+              tabIndex={0}
             >
               <img
                 src={project.image}
@@ -96,6 +97,7 @@ const ProjectsSlideShow = () => {
             aria-label={`Voir le slide ${index + 1}`}
             className={`carousel__footer--indicator ${index === currentIndex ? 'carousel__footer--indicator--active' : ''}`}
             onClick={() => goToSlide(index)}
+            tabIndex={0}
           />
         ))}
       </div>
