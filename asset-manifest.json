@@ -1,17 +1,29 @@
 {
   "files": {
-    "main.css": "/Projet8/static/css/main.4737e911.css",
-    "main.js": "/Projet8/static/js/main.9a379330.js",
-    "static/media/office-developpeur-web.webp": "/Projet8/static/media/office-developpeur-web.2bce333bbe860e5b6c2d.webp",
-    "static/media/interface-developpement-web-ordi.webp": "/Projet8/static/media/interface-developpement-web-ordi.5b04bf885ba68111877a.webp",
-    "static/media/clavier-developpeur-web.webp": "/Projet8/static/media/clavier-developpeur-web.3393fe7798def200bcc1.webp",
-    "static/media/interface-developpement-web-ordi-mobile.webp": "/Projet8/static/media/interface-developpement-web-ordi-mobile.ecd7eebde2c2e4b71962.webp",
+    "main.css": "/Projet8/static/css/main.dce223de.css",
+    "main.js": "/Projet8/static/js/main.4c5a7a2e.js",
+    "static/media/office-developpeur-web-2048w.webp": "/Projet8/static/media/office-developpeur-web-2048w.d0b097bf6ff1c1d8d5c8.webp",
+    "static/media/interface-developpement-web-ordi-1200w.webp": "/Projet8/static/media/interface-developpement-web-ordi-1200w.a35d9146547872fde9a5.webp",
+    "static/media/office-developpeur-web-1770w.webp": "/Projet8/static/media/office-developpeur-web-1770w.3ecefa4d25182ac239fa.webp",
+    "static/media/interface-developpement-web-ordi-950w.webp": "/Projet8/static/media/interface-developpement-web-ordi-950w.ab571d9ce131eb4e95cd.webp",
+    "static/media/office-developpeur-web-1440w.webp": "/Projet8/static/media/office-developpeur-web-1440w.96f191cfcb77f4f5b2f9.webp",
+    "static/media/interface-developpement-web-ordi-mobile-1032w.webp": "/Projet8/static/media/interface-developpement-web-ordi-mobile-1032w.f451da09e3e241a052b6.webp",
+    "static/media/clavier-developpeur-web-2048w.webp": "/Projet8/static/media/clavier-developpeur-web-2048w.7d3b79835b7b1dc740ae.webp",
+    "static/media/office-developpeur-web-1040w.webp": "/Projet8/static/media/office-developpeur-web-1040w.aca113ccb1c3795de06b.webp",
+    "static/media/interface-developpement-web-ordi-600w.webp": "/Projet8/static/media/interface-developpement-web-ordi-600w.99d70387a752086c4d21.webp",
+    "static/media/clavier-developpeur-web-1770w.webp": "/Projet8/static/media/clavier-developpeur-web-1770w.417373af19b72c8b4ac9.webp",
+    "static/media/clavier-developpeur-web-1440w.webp": "/Projet8/static/media/clavier-developpeur-web-1440w.ec20c2922216218288b2.webp",
+    "static/media/interface-developpement-web-ordi-mobile-516w.webp": "/Projet8/static/media/interface-developpement-web-ordi-mobile-516w.2ee466a12789af07b930.webp",
+    "static/media/clavier-developpeur-web-1040w.webp": "/Projet8/static/media/clavier-developpeur-web-1040w.0891ab82afc46e08c689.webp",
+    "static/media/interface-developpement-web-ordi-256w.webp": "/Projet8/static/media/interface-developpement-web-ordi-256w.c2d56c81cbbc34f30ca3.webp",
+    "static/media/office-developpeur-web-300w.webp": "/Projet8/static/media/office-developpeur-web-300w.dc1950072c3aeb2b5274.webp",
+    "static/media/clavier-developpeur-web-300w.webp": "/Projet8/static/media/clavier-developpeur-web-300w.ebdd37803ab9f387ee40.webp",
     "index.html": "/Projet8/index.html",
-    "main.4737e911.css.map": "/Projet8/static/css/main.4737e911.css.map",
-    "main.9a379330.js.map": "/Projet8/static/js/main.9a379330.js.map"
+    "main.dce223de.css.map": "/Projet8/static/css/main.dce223de.css.map",
+    "main.4c5a7a2e.js.map": "/Projet8/static/js/main.4c5a7a2e.js.map"
   },
   "entrypoints": [
-    "static/css/main.4737e911.css",
-    "static/js/main.9a379330.js"
+    "static/css/main.dce223de.css",
+    "static/js/main.4c5a7a2e.js"
   ]
 }
