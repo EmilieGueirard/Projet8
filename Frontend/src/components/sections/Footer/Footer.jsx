@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className='footer'>
       <div className='footer__icons'>
         <Github className='footer__icons--github'/>
-        <a href="mailto:emilie.gueirard@live.fr" className='footer__icons--mail'>
+        <a href="mailto:emilie.gueirard@live.fr" className='footer__icons--mail' title='Envoyer un email' aria-label='Envoyer un email'>
                   <FaEnvelope />
               </a>
       </div>

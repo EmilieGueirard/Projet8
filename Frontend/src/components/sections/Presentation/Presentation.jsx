@@ -5,7 +5,7 @@ const Presentation = () => {
   return (
     <section id='présentation' className='presentation'>
       <header className='presentation__header'>
-        <img className='presentation__header--img' src={image} alt="Interface d'ordinateur et mobile"/>
+        <img className='presentation__header--img' src={image} alt="Interface d'ordinateur et mobile" loading="lazy"/>
       </header>
       <main className='presentation__content'>
         <h2 className='presentation__content--title'>PASSIONNÉE<br /><span>curieuse & autodidacte</span></h2>

@@ -29,6 +29,7 @@
       font-size: 35px;
       cursor: pointer;
       color: $black-color;
+      @include scaling-effect(1.2, 0.8s);
 
       &:hover {
         color: $main-color;

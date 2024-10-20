@@ -23,13 +23,12 @@
 
   &:hover {
     border: 1px solid $white-color;
-    background: $white-color;
     .card__icon, .card__txt {
-      color: $main-color;
+      color: $white-color;
     }
     
     .card__title {
-      color: $black-color; 
+      color: $main-color; 
     }
   }
 

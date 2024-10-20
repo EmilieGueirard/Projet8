@@ -14,7 +14,7 @@ const Skills = () => {
           ))}
         </div>
         <div className='skills__content--wrapper'>
-          <img className='skills__content--wrapper--image' src={image} alt="Interface graphique 3D d'un ordi" />
+          <img className='skills__content--wrapper--image' src={image} alt="Interface graphique 3D d'un ordi" loading="lazy" />
         </div>
       </div>
     </section>

@@ -95,6 +95,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  max-width: 400px;
   width: 30%;
   background: $white-color;
   color: $black-color;
@@ -112,7 +113,7 @@
   
     @media screen and (max-width: 768px) {
       padding: 30px 20px;
-      width: 80%;
+      width: 60%;
     }
 
   &__overlay {

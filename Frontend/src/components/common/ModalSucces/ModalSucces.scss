@@ -3,9 +3,14 @@
 .modalsucces {
 
   &__content {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 700;
+
+    @media screen and (max-width: 768px) {
+      font-size: 18px;
+    }
   }
+
   &__button {
     margin-top: 20px;
     padding: 5px 25px;

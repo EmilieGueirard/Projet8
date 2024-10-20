@@ -49,7 +49,7 @@ const Burger = ({ menuItems }) => {
 
             <div className='burger__menu--icons'>
               <Github className='burger__menu--icons--github' />
-              <a href="mailto:emilie.gueirard@live.fr" className='burger__menu--icons--mail'>
+              <a href="mailto:emilie.gueirard@live.fr" className='burger__menu--icons--mail' title='Envoyer un email' aria-label='Envoyer un email'>
                   <FaEnvelope />
               </a>
             </div>

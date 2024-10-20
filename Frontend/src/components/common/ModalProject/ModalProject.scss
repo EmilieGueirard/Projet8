@@ -18,6 +18,8 @@
       color: $black-color;
       cursor: pointer;
 
+      @include scaling-effect(1.2, 0.8s);
+
       &:hover {
         color: $main-color;
       }
@@ -47,6 +49,7 @@
     
       &--img {
         width: 45%;
+        border-radius: 5px;
         object-fit: contain;
 
         @media screen and (max-width: 450px) {
