@@ -100,7 +100,10 @@
       cursor: pointer;
       border: none;
       transition: background 0.3s;
-      aspect-ratio: 1 / 1;
+      appearance: none; 
+      -webkit-appearance: none;  
+      display: inline-block; 
+      
       
       &--active {
         background: $main-color;
