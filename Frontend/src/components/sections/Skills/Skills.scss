@@ -9,7 +9,6 @@
   }
 
   &__header {
-
     &:focus {
       outline: none;
     }
@@ -26,6 +25,7 @@
       line-height: 1.3;
     }
   }
+  
   &__content {
     display: flex;
     flex-direction: column;

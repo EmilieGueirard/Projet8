@@ -98,8 +98,9 @@
       border-radius: 50%;
       background: $light-color;
       cursor: pointer;
+      border: none;
       transition: background 0.3s;
-
+      
       &--active {
         background: $main-color;
       }

@@ -4,6 +4,7 @@ import { FaArrowUp } from 'react-icons/fa';
 const ScrollToTop = () => {
   const [isVisible, setIsVisible] = useState(false);
 
+  // Show or hide based on scrolling
   const toggleVisibility = () => {
     if (window.scrollY > 100) {
       setIsVisible(true);
@@ -12,6 +13,7 @@ const ScrollToTop = () => {
     }
   };
 
+  // Scroll the page up with a smooth effect
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,

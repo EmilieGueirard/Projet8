@@ -7,7 +7,10 @@ const CategorySkill = ({ category, skills }) => {
       <h3 className='category__title' tabIndex='0'>{category.toUpperCase()}</h3>
       <div className='category__skills'>
         {skills.map((skill, index) => (
-          <IconSkill key={index} icon={skill.icon} title={skill.title} />
+          <IconSkill 
+            key={index} 
+            icon={skill.icon} 
+            title={skill.title} />
         ))}
       </div>
     </div>

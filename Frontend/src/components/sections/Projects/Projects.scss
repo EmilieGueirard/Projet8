@@ -17,15 +17,14 @@
       outline-offset: 3px;
       border-radius: 5px;
     }
-
   }
+
   &__cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 50px;
-    padding-inline: 50px;
-    
+    padding-inline: 50px; 
     width: 100%;
     box-sizing: border-box;
 
@@ -55,11 +54,13 @@
       width: 70%;
       height: 85%;
     }
+
     @media screen and (max-width: 768px) {
       padding: 30px 20px;
       width: 80%;
       height: 78%;
     }
+    
     @media screen and (max-width: 450px) {
       height: 80%;
     }

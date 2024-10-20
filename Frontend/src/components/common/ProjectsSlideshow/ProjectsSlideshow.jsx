@@ -8,28 +8,27 @@ const ProjectsSlideShow = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const totalSlides = bestProjects.length;
   
-  // Références pour détecter le swipe
   const touchStartX = useRef(0);
   const touchEndX = useRef(0);
 
-  // Aller directement à un slide spécifique
+  // Specific Slide
   const goToSlide = (index) => {
     if (index !== currentIndex) {
       setCurrentIndex(index);
     }
   };
 
-  // Aller au slide suivant
+  // Next Slide
   const goToNextSlide = () => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % totalSlides);
   };
 
-  // Aller au slide précédent
+  // Previous Slide
   const goToPreviousSlide = () => {
     setCurrentIndex((prevIndex) => (prevIndex - 1 + totalSlides) % totalSlides);
   };
 
-  // Gestion du swipe sur le carousel
+  // Swipe
   const handleTouchStart = (e) => {
     touchStartX.current = e.changedTouches[0].screenX;
   };
@@ -40,10 +39,10 @@ const ProjectsSlideShow = () => {
 
   const handleTouchEnd = () => {
     if (touchStartX.current - touchEndX.current > 50) {
-      goToNextSlide();  // Swipe vers la gauche
+      goToNextSlide();  
     }
     if (touchStartX.current - touchEndX.current < -50) {
-      goToPreviousSlide();  // Swipe vers la droite
+      goToPreviousSlide();  
     }
   };
 
@@ -80,7 +79,10 @@ const ProjectsSlideShow = () => {
               tabIndex={0}
             >
               <img
-                src={project.image}
+                src={project.image.small}
+                srcSet={`${project.image.small} 335w, ${project.image.medium} 670w, ${project.image.large} 1080w`}
+                sizes="(max-width: 335px) 335px, (max-width: 670px) 670px, 1080px"
+                loading="lazy"
                 alt={`Projet ${project.title}`}
                 className='carousel__slide--img'
               />
@@ -89,15 +91,20 @@ const ProjectsSlideShow = () => {
         })}
       </div>
 
-      {/* Indicateurs de Slide (Points) */}
+      {/* Indicators Slide */}
       <div className='carousel__footer'>
         {bestProjects.map((_, index) => (
-          <span
+          <button
             key={index}
             aria-label={`Voir le slide ${index + 1}`}
             className={`carousel__footer--indicator ${index === currentIndex ? 'carousel__footer--indicator--active' : ''}`}
             onClick={() => goToSlide(index)}
             tabIndex={0}
+            onKeyDown={(e) => {
+              if (e.key === 'Enter') {
+                goToSlide(index);
+              }
+            }}
           />
         ))}
       </div>

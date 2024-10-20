@@ -13,7 +13,8 @@ const Projects = () => {
 
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [selectedProject, setSelectedProject] = useState(null);
-
+  
+  // Open modal
   const openModal = (projectId) => {
     const project = modalProjectsList.find((item) => item.id === projectId);
     if (project) {
@@ -22,6 +23,7 @@ const Projects = () => {
     }
   };
 
+  // Close Modal
   const closeModal = () => {
     setModalIsOpen(false);
     setSelectedProject(null);
@@ -29,7 +31,9 @@ const Projects = () => {
   
   return (
     <section id='projets' className='projects'>
+
       <h2 className='projects__title' tabIndex='0'>MES PROJETS</h2>
+      
       <ProjectsSlideShow />
 
       <div className='projects__cards'>

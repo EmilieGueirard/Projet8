@@ -9,15 +9,21 @@ const ProjectCard = ({ id, title, technologies, image, difficulty, onClick }) =>
       tabIndex={0} 
       onKeyDown={(e) => {
         if (e.key === 'Enter') {
-          onClick();
+          onClick(id);
         }
       }}
       aria-label="Ouvrir le projet">
 
-      {/* Image du projet */}
-      <img src={image} alt={`Page d'accueil du projet ${title}`} className='project__img' />
+      {/* Image Project */}
+      <img 
+        src={image.small} 
+        srcSet={`${image.small} 335w, ${image.medium} 670w, ${image.large} 1080w`}
+        sizes="(max-width: 335px) 335px, (max-width: 670px) 670px, 1080px"
+        loading="lazy"
+        alt={`Page du projet ${title}`} 
+        className='project__img' />
       
-      {/* Contenu caché, affiché au survol */}
+      {/* Overlay */}
       <div className='project__overlay'>
         <div className='project__header'>
           <h3 className='project__header--title'>{title.toUpperCase()}</h3>  

@@ -22,12 +22,12 @@ const Burger = ({ menuItems }) => {
       {!menuOpen && (
         <div className='burger__open'>
           <FaBars className='burger__open--icon' 
-          onClick={toggleMenu} 
-          tabIndex={0} 
-          aria-label='Ouvrir le menu' 
-          onKeyDown={(e) => {
-            if (e.key === 'Enter') toggleMenu();
-          }}/>
+            onClick={toggleMenu} 
+            tabIndex={0} 
+            aria-label='Ouvrir le menu' 
+            onKeyDown={(e) => {
+              if (e.key === 'Enter') toggleMenu();
+            }}/>
         </div>
       )}
 
@@ -35,12 +35,12 @@ const Burger = ({ menuItems }) => {
       {menuOpen && (
         <div className='burger__close'>
           <FaTimes className='burger__close--icon' 
-          onClick={toggleMenu}
-          tabIndex={0} 
-          aria-label='Fermer le menu' 
-          onKeyDown={(e) => {
-            if (e.key === 'Enter') toggleMenu();
-          }} />
+            onClick={toggleMenu}
+            tabIndex={0} 
+            aria-label='Fermer le menu' 
+            onKeyDown={(e) => {
+              if (e.key === 'Enter') toggleMenu();
+            }} />
         </div>
       )}
 
@@ -55,12 +55,12 @@ const Burger = ({ menuItems }) => {
               {menuItems.map((item, index) => (
                 <li className='burger__menu--item' key={index}>
                   <a className='burger__menu--link' 
-                  href={item.href}
-                  onKeyDown={(e) => {
-                    if (e.key === 'Enter') {
-                      window.location.href = item.href; 
-                    }
-                  }}
+                    href={item.href}
+                    onKeyDown={(e) => {
+                      if (e.key === 'Enter') {
+                        window.location.href = item.href; 
+                      }
+                    }}
                   >{item.label}</a>
                 </li>
               ))}
@@ -68,8 +68,10 @@ const Burger = ({ menuItems }) => {
 
             <div className='burger__menu--icons'>
               <Github className='burger__menu--icons--github' />
-              <a href="mailto:emilie.gueirard@live.fr" className='burger__menu--icons--mail' title='Envoyer un email' aria-label='Envoyer un email'>
-                  <FaEnvelope />
+              <a href="mailto:emilie.gueirard@live.fr"        className='burger__menu--icons--mail' 
+              title='Envoyer un email' 
+              aria-label='Envoyer un email'>
+                <FaEnvelope />
               </a>
             </div>
 

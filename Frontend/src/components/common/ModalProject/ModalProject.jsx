@@ -80,6 +80,7 @@ const ModalProject = ({ closeModal, project }) => {
           </a>
         </div>
       </div>
+
     </div>
   );
 };

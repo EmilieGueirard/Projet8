@@ -21,18 +21,18 @@
     width: 200px;
   }    
 
-    &:hover {
-        background: transparent;
-        border-color: $white-color;
-        color: $white-color;
-    }
+  &:hover {
+      background: transparent;
+      border-color: $white-color;
+      color: $white-color;
+  }
 
-    &:focus {
-      outline: none;
-    }
+  &:focus {
+    outline: none;
+  }
 
-    &.focus-visible {   
-      outline: 3px solid $white-color;
-      outline-offset: 3px;
-    }
+  &.focus-visible {   
+    outline: 3px solid $white-color;
+    outline-offset: 3px;
+  }
 }
