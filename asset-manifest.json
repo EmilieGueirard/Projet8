@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Projet8/static/css/main.f580d17f.css",
+    "main.css": "/Projet8/static/css/main.f563aeb6.css",
     "main.js": "/Projet8/static/js/main.4c5a7a2e.js",
     "static/media/office-developpeur-web-2048w.webp": "/Projet8/static/media/office-developpeur-web-2048w.d0b097bf6ff1c1d8d5c8.webp",
     "static/media/interface-developpement-web-ordi-1200w.webp": "/Projet8/static/media/interface-developpement-web-ordi-1200w.a35d9146547872fde9a5.webp",
@@ -19,11 +19,11 @@
     "static/media/office-developpeur-web-300w.webp": "/Projet8/static/media/office-developpeur-web-300w.dc1950072c3aeb2b5274.webp",
     "static/media/clavier-developpeur-web-300w.webp": "/Projet8/static/media/clavier-developpeur-web-300w.ebdd37803ab9f387ee40.webp",
     "index.html": "/Projet8/index.html",
-    "main.f580d17f.css.map": "/Projet8/static/css/main.f580d17f.css.map",
+    "main.f563aeb6.css.map": "/Projet8/static/css/main.f563aeb6.css.map",
     "main.4c5a7a2e.js.map": "/Projet8/static/js/main.4c5a7a2e.js.map"
   },
   "entrypoints": [
-    "static/css/main.f580d17f.css",
+    "static/css/main.f563aeb6.css",
     "static/js/main.4c5a7a2e.js"
   ]
 }
